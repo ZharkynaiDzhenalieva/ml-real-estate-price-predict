@@ -53,6 +53,7 @@ I trained several models using **cross-validation (KFold, 5 folds)** and evaluat
 | Decision Tree    | _to be added_         |
 | Random Forest    | _to be added_         |
 | Gradient Boosting| _to be added_         |
+<img width="601" height="455" alt="image" src="https://github.com/user-attachments/assets/2ae664f3-f16a-4bc3-be9a-c6454250a6e6" />
 
 ---
 
