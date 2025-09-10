@@ -10,7 +10,6 @@ The task was completed as part of a competition assignment.
 - **Target:** `usd_price` (price in USD).  
 - **Features include:**
   - **Categorical:** building type, condition, heating, etc.  
-  - **Binary:** presence of balcony, parking, documents, etc.  
   - **Numeric:** square meters, floor ratio, latitude, longitude, etc.  
 
 ---
@@ -20,7 +19,6 @@ The task was completed as part of a competition assignment.
 2. **Log-transform target** – applied `log1p(y)` to stabilize variance and reduce skew.  
 3. **Feature processing:**
    - Categorical → one-hot encoding  
-   - Binary (0/1) → passthrough  
    - Numeric → median imputation + scaling  
    - Skewed numeric → log-transform + scaling  
 4. All transformations are wrapped into a **ColumnTransformer** inside a scikit-learn **Pipeline**.  
